@@ -1,4 +1,4 @@
-CREATE TABLE notes (
+CREATE TABLE note (
     id BIGSERIAL NOT NULL PRIMARY KEY,
     title TEXT,
     content TEXT NOT NULL,

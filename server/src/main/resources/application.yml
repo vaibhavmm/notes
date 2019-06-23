@@ -1,0 +1,15 @@
+spring:
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/notes
+    user: postgres
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 8
+    name: notes
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/notes
+    username: postgres
